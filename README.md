@@ -7,17 +7,17 @@ Sistema de etiquetado web aplicado para la creación de una base de datos sobre 
 Se desarrolló en php tomando los parches ya recortados de los frames seleccionados para el entrenamiento y testeo. Si bien esta preparado para seleccionar 3 clases en la imagen (maleza, entre-surco o soja), puede modificarse fácilmente. Se usó métodos get y post para envio de datos, javascript para el comportamiento de clickeo, variables de sesión y formato .csv para el almacenamiento del etiquetado. No se provee registro de usuarios ni inicio de sesión, como así tampoco ninguna medida de seguridad para el sistema.
 El template web fue descargado de forma gratuita y se desarrolló sobre el mismo la lógica en php. Se incorporó google analytics que debería modificarse para otros proyectos.
 
-##Instalación
+## Instalación
 
 Descargar los archivos fuentes:
 
-#~$ git clone git@github.com:juanmab37/webtagger.git 
+~$ git clone git@github.com:juanmab37/webtagger.git 
 
 Subirlo a cualquier servidor php. Cambiar los permisos para poder almacenar archivos (en caso de ser necesario ya que algunos servidores te lo permiten por defecto)
 
-#~$  sudo chmod 777 -R webtagger
+~$  sudo chmod 777 -R webtagger
 
-##Modo de uso
+## Modo de uso
 
 Dentro de la carpeta disponemos de la siguiente estructura:
 - files: Archivos extras como por ejemplo papers.
